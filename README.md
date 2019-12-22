@@ -1,9 +1,9 @@
-Mixcloud downloader v1.0
-# build
+# Mixcloud downloader v1.0
+## build
 ```bash
 ./build.sh 
 ```
-# run
+## run
 ```
 ./mixcloud-dl MIXCLOUD_URL
 ```
