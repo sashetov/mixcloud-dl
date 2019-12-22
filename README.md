@@ -1,20 +1,21 @@
-# Mixcloud downloader v1.1
+# Mixcloud Downloader v1.1
 ## build
 ```bash
 ./build.sh 
 ```
 ## run
-```
+```bash
 ./mixcloud-dl MIXCLOUD_URL (NUM_PROC)
 ```
-## USAGE
+## usage
+```
 USAGE: ./mixcloud_dl.py [MIXCLOUD_URL] (NUM_PROC)
 
 NOTE: args in [] are required
       args in () are not
-## DESCRIPTION:
-downloads mixcloud stream in chunks in parallel (with optional number of 
-subprocesses and recombines to form mp4 file, which you can convert with
-your favorite ffmpeg -i in out command to mp3 or other format
-## LICENSE
+```
+## description
+- Downloads mixcloud stream in chunks in parallel and recombines to form mp4 file
+- Now is run in parallel with subprocesses ( default is number of cores )
+## license
 http://www.wtfpl.net/about/
