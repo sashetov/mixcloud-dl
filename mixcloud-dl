@@ -1,4 +1,4 @@
 #!/bin/bash
 . venv/bin/activate
-./mixcloud-dl.py $*
+./mixcloud_dl.py $*
 deactivate

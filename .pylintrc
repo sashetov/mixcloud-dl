@@ -1,0 +1,15 @@
+[DESIGN]
+max-args=7
+ignored-argument-names=_.*
+max-locals=25
+max-returns=6
+max-branches=12
+max-statements=50
+max-parents=7
+max-attributes=7
+min-public-methods=0
+max-public-methods=20
+max-bool-expr=5
+[FORMAT]
+max-line-length=80
+good-names=a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,ix,fn
